@@ -153,3 +153,4 @@ clip.write_videofile(output_path, codec="libx264", audio=False)
 
 
 print("🎉 Summary video saved at:", output_path)
+
