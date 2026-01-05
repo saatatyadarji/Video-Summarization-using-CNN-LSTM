@@ -9,7 +9,7 @@ from model import LSTMVideoSummarizer
 # =====================================================
 # CONFIG
 # =====================================================
-VIDEO_PATH = "C:\\Users\\saata\\OneDrive\\Pictures\\Malav_pg.mp4"
+VIDEO_PATH = "C:\\Users\\saata\\OneDrive\\Pictures\\Random.mp4"
 OUTPUT_DIR = "C:\\Users\\saata\\OneDrive\\Documents\\ai-ml project\\Video summarizer SumMe\\outputs\\summary"
 MODEL_PATH = "C:\\Users\\saata\\OneDrive\\Documents\\ai-ml project\\Video summarizer SumMe\\outputs\\model.pth"
 
@@ -150,5 +150,6 @@ clip = ImageSequenceClip(
 
 output_path = os.path.join(OUTPUT_DIR, "summary.mp4")
 clip.write_videofile(output_path, codec="libx264", audio=False)
+
 
 print("🎉 Summary video saved at:", output_path)
