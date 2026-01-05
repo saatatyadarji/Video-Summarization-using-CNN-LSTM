@@ -1,0 +1,18 @@
+# Dataset
+SumMe Dataset/
+datasets/
+*.mp4
+*.avi
+
+# Outputs
+outputs/
+*.npy
+*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
